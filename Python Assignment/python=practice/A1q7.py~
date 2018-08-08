@@ -1,0 +1,8 @@
+h = input("Enter height of the person in centimeter: ")
+w1 = 18.5*h**2
+w3 = w1/100
+w2 = 24.9*h**2
+w4 = w2/100
+print "Ideal weight for the person is in range(Kg): ",w3,w4 
+
+

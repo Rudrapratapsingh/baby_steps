@@ -1,0 +1,14 @@
+n1 = input("First Number: ")
+n2 = input("Second Number : ")
+n3 = input("Third Number : ")
+
+if( n1<10 and n2<10 and n3<10): 
+	if (n1<n2 and n1<n3):
+		print "Square root of the smallest number is: ", n1**(1/2)
+	elif(n2<n1 and n2<n3):
+		print "Square root of the smallest number is: ",n2**(1/2)
+	else:
+		print "Square root of the smallest number is: ",n3**(1/2)
+	
+else: 
+	print "One of the number is of two digits"

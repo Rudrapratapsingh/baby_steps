@@ -1,0 +1,16 @@
+from javax.swing import JFrame
+from javax.swing import JButton
+frame =  JFrame("Hello")
+frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
+
+frame.setLocation(100,100)
+frame.setSize(300,200)
+
+def clickhere(event):
+	print "Clicked"
+
+bin = JButton("Add",actionPerformed = clickhere)
+frame.add(bin)
+frame.setVisible(True)
+
+

@@ -1,0 +1,31 @@
+from javax.swing import * #JFrame, Jlabel, JButton, JTable, JPanel
+from java.awt import *
+
+
+def clickhere1(event):
+	frame = JFrame("Page 1")
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
+	frame.setLocation(200,200)
+	frame.setSize(300,200)
+	frame.setVisible(True)
+	btn = JButton("Page 2", actionPerformed = clickhere2)
+	frame.add(btn)
+	frame.setVisible(True)
+
+def clickhere2(event):
+	frame = JFrame("Page 2")
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
+	frame.setLocation(200,200)
+	frame.setSize(300,200)
+	frame.setVisible(True)
+	btn = JButton("Page 1", actionPerformed = clickhere1)
+	frame.add(btn)
+	frame.setVisible(True)
+
+
+
+clickhere1(event)
+	
+
+	
+

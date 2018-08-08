@@ -1,0 +1,13 @@
+from javax.swing import * #JFrame, Jlabel, JButton, JTable, JPanel
+frame.setsize(250,200)
+panel = JPanel()
+panel.setLayout(BoxLayout(panel,BoxLayout,Y_AXIS))
+frame.add(panel)
+lbl = Jlabel("Select Gender")
+lbl1 = Jlabel("Gender selection:-")
+
+def onCheck(event):
+	lbl1.txt = ""
+	if lb1
+
+
